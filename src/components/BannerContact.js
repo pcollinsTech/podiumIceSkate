@@ -1,15 +1,13 @@
 import React from 'react'
-import londonbackground from '../assets/images/contactBanner.png'
+import iceBackground from '../assets/images/contactBanner.png'
 
-const BannerContact = ({ headingOne }) => (
+const BannerContact = () => (
   <section id="banner" className="major">
     <div className="inner">
-      <header className="my-5 pt-5">
-        <h1 className="pt-5">{headingOne}</h1>
-      </header>
+      <header className="my-5 pt-5"></header>
       <div className="row mt-5">
         <div className="container contact_section">
-          <img src={londonbackground} alt="londonbackground" />
+          <img src={iceBackground} alt="iceBackground" />
           <div className="contact_section_info">
             <div className="col-sm-6 text-left contact_section_left">
               <h2>Belfast</h2>

@@ -15,10 +15,7 @@ class Contact extends React.Component {
           ]}
         ></Helmet>
 
-        <BannerContact
-          headingOne="Contact."
-          small="(INSERT CAPTION ABOUT BLOG HERE)"
-        />
+        <BannerContact />
       </Layout>
     )
   }
