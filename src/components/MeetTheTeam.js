@@ -35,7 +35,7 @@ const MeetTheTeam = () => {
                 <h3 className="text-center">Qualifications & Awards</h3>
                 <br />
                 <br />
-                <div className="container">
+                <div className="container my-5">
                   <div className="row">
                     <div className="col-sm-6">
                       <ul>
@@ -85,7 +85,7 @@ const MeetTheTeam = () => {
                 <h3 className="text-center">Qualifications & Awards</h3>
                 <br />
                 <br />
-                <div className="container">
+                <div className="container my-5">
                   <div className="row">
                     <div className="col-sm-6">
                       <ul>
