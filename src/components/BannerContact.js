@@ -1,10 +1,10 @@
 import React from 'react'
 import londonbackground from '../assets/images/contactBanner.png'
 
-const BannerContact = ({ small, headingOne, headingTwo }) => (
+const BannerContact = ({ headingOne }) => (
   <section id="banner" className="major">
     <div className="inner">
-      <header className="my-5 ">
+      <header className="my-5 pt-5">
         <h1>{headingOne}</h1>
       </header>
       <div className="row mt-5">
@@ -12,7 +12,7 @@ const BannerContact = ({ small, headingOne, headingTwo }) => (
           <img src={londonbackground} alt="londonbackground" />
           <div className="contact_section_info">
             <div className="col-sm-6 text-left contact_section_left">
-              <h1>Belfast</h1>
+              <h2>Belfast</h2>
               <p>
                 Lorem Ipsum
                 <br />
@@ -21,35 +21,24 @@ const BannerContact = ({ small, headingOne, headingTwo }) => (
                 Lorem Ipsum
               </p>
               <div className="contact_links mb-5">
-                <h3>
+                <h4>
                   <a href="tel:020 8144 5873">0987654321</a>
-                </h3>
-                <h3>
-                  <a
-                    href="mailto:hello@digitalworksagency.com"
-                    className="my-5 green"
-                  >
+                </h4>
+                <h4>
+                  <a href="mailto:hello@digitalworksagency.com" className="my-5 green">
                     hello@podiumiceskate.com
                   </a>
-                </h3>
+                </h4>
               </div>
             </div>
             <div className="col-sm-6 text-right contact_section_right ">
               <form className="form">
                 <div className="form-group mb-2 text-left">
                   <label htmlFor="">Name</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    placeholder="Name"
-                  />
+                  <input type="text" className="form-control" placeholder="Name" />
                 </div>
                 <div className="form-group mb-2">
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Email"
-                  />
+                  <input type="email" className="form-control" placeholder="Email" />
                 </div>
                 <div className="form-group mb-2">
                   <textarea className="mt-3" placeholder="Message" />
