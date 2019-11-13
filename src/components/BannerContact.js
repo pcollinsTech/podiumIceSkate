@@ -5,7 +5,7 @@ const BannerContact = ({ headingOne }) => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="my-5 pt-5">
-        <h1>{headingOne}</h1>
+        <h1 className="pt-5">{headingOne}</h1>
       </header>
       <div className="row mt-5">
         <div className="container contact_section">
