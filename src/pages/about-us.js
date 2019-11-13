@@ -5,6 +5,9 @@ import Banner from '../components/Banner'
 import MeetTheTeam from '../components/MeetTheTeam'
 import BannerContact from '../components/BannerContact'
 import banner from '../assets/images/iceRinkBoot.jpg'
+import outsideTogether from '../assets/images/outsideTogether.jpg'
+import bannerTogegther from '../assets/images/bannerTogegther.jpg'
+
 class AboutUs extends React.Component {
   render() {
     return (
@@ -28,7 +31,9 @@ class AboutUs extends React.Component {
                 unde nesciunt quam delectus numquam nam ducimus facilis vel,
                 mollitia, culpa aliquid. Recusandae reprehenderit nihil,
                 voluptatum exercitationem vero ipsum natus animi.
-                <br /> <br />
+              </p>
+              <img src={outsideTogether} alt="" />
+              <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Suscipit tempore necessitatibus rem hic aspernatur repellat,
                 voluptas ratione eaque facilis possimus sapiente quas officiis
@@ -38,6 +43,11 @@ class AboutUs extends React.Component {
           </div>
 
           <MeetTheTeam />
+          <div className="container">
+            <div className="row text-center">
+              <img src={bannerTogegther} alt="" />
+            </div>
+          </div>
           <BannerContact />
         </div>
       </Layout>
