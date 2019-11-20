@@ -23,7 +23,7 @@ const BannerContact = () => (
                   <a href="tel:020 8144 5873">0987654321</a>
                 </h4>
                 <h5>
-                  <a href="mailto:hello@digitalworksagency.com" className="my-5 green">
+                  <a href="mailto:hello@podiumiceskate.com" className="my-5 green">
                     hello@podiumiceskate.com
                   </a>
                 </h5>

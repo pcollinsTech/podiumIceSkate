@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import anastasiia from '../assets/images/anastasiia.jpg'
-import eddie from '../assets/images/eddie.jpg'
+import anastasiia from '../assets/images/anastasia.jpg'
+import eddie from '../assets/images/eddieAlton.jpeg'
 
 const MeetTheTeam = () => {
   return (
