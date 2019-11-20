@@ -32,7 +32,7 @@ const MeetTheTeam = () => {
                   </p>
                 </div>
 
-                <h3 className="text-center">Qualifications & Awards</h3>
+                <h3 className="text-center ">Qualifications & Awards</h3>
                 <br />
                 <br />
                 <div className="container my-5">
@@ -76,13 +76,16 @@ const MeetTheTeam = () => {
                   <p>
                     Edward started skating at Dundonald International IceBowl in
                     Northern Ireland While competing he was on the British
-                    olympic squad representing the United Kingdom . After Edward
-                    finished competitive skating he turned professional as
-                    Principle Pairs Team with Disney on ice. It was there that
-                    he met, Russian skating star Anastasiia Kuzmina.
+                    olympic squad representing the United Kingdom . <br />
+                    <br />
+                    <br />
+                    After Edward finished competitive skating he turned
+                    professional as Principle Pairs Team with Disney on ice. It
+                    was there that he met, Russian skating star Anastasiia
+                    Kuzmina.
                   </p>
                 </div>
-                <h3 className="text-center">Qualifications & Awards</h3>
+                <h3 className="text-center ">Qualifications & Awards</h3>
                 <br />
                 <br />
                 <div className="container my-5">
