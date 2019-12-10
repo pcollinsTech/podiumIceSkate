@@ -22,16 +22,15 @@ class HomeIndex extends React.Component {
           <div className="row home_about">
             <div className="container">
               <p className="mt-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-                quibusdam sapiente tenetur provident, exercitationem enim quam
-                iusto? Exercitationem tempora quae similique porro cum voluptas
-                asperiores eius, animi cumque ipsum nulla.
+                Podium Ice Skating has 50 years combined skating experience.
+                <br />
+                Work with our fully qualified team to Learn, Practice, Improve
+                Skills and feel better about yourself.
               </p>
-              <p className="mobile">
-                “Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum quibusdam sapiente tenetur provident, exercitationem
-                enim quam iusto? Exercitationem tempora quae similique porro cum
-                voluptas asperiores eius, animi cumque ipsum nulla."
+              <p className="mt-5">
+                Our instructors have competed at the highest standard. They
+                understand the discipline/hard work needed for success they are
+                committed and inspirational.
               </p>
             </div>
           </div>

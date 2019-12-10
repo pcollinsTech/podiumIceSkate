@@ -5,7 +5,7 @@ import Banner from '../components/Banner'
 import MeetTheTeam from '../components/MeetTheTeam'
 import BannerContact from '../components/BannerContact'
 import banner from '../assets/images/iceRinkBoot.jpg'
-import outsideTogether from '../assets/images/outsideTogether.jpg'
+import outsideTogether from '../assets/images/gorup.jpg'
 import bannerTogegther from '../assets/images/bannerTogegther.jpg'
 
 class AboutUs extends React.Component {
