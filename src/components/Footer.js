@@ -5,7 +5,7 @@ import logo from '../assets/images/logo.png'
 
 const Footer = () => (
   <footer id="footer">
-    <div className="row inner">
+    <div className="row inner pb-5">
       <div className="container footer_container">
         <div className="col-md-3 footer_item text-left">
           <h5>Podium Ice SKating</h5>

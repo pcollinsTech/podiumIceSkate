@@ -12,7 +12,7 @@ const Header = props => (
       <a
         className="menu-link"
         onClick={props.onToggleMenu}
-        href="javascript:;"
+        href=" javascript:;"
         style={{ textDecoration: 0 }}
       >
         <i

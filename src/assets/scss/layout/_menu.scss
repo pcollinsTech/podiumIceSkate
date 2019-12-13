@@ -152,6 +152,15 @@
       }
     }
   }
+  #menu_social {
+    width: 200px;
+    position: fixed;
+    bottom: 120px;
+    margin: 0 auto;
+    a {
+      font-size: 45px;
+    }
+  }
 }
 
 body.is-ie {

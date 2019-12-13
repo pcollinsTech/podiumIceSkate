@@ -23,6 +23,24 @@ const Menu = props => (
         </li>
       </ul>
     </div>
+    <div className="container" id="menu_social">
+      <div className="row d-flex justify-content-around">
+        <a
+          href="https://www.facebook.com/waxhivewraps/"
+          target="__blank"
+          className="icon fa-facebook"
+        >
+          <span className="label">Facebook</span>
+        </a>
+        <a
+          href="https://www.instagram.com/waxhivewraps/"
+          target="__blank"
+          className="icon fa-instagram"
+        >
+          <span className="label">Instagram</span>
+        </a>
+      </div>
+    </div>
     <span className="close" onClick={props.onToggleMenu}>
       Close
     </span>
