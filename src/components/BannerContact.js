@@ -11,11 +11,13 @@ const BannerContact = () => (
           <div className="contact_section_info">
             <div className="col-sm-6 text-left contact_section_left">
               <h2>Belfast</h2>
-              <p>
-                111 Old Dundonald Rd <br />
-                Belfast <br />
-                BT16 1XT
-              </p>
+              <a href="https://goo.gl/maps/YZqKE63QnMbEYT648" target="__blank">
+                <p>
+                  111 Old Dundonald Rd <br />
+                  Belfast <br />
+                  BT16 1XT
+                </p>
+              </a>
               <div className="contact_links mb-5">
                 <h4>
                   Edward: <a href="tel:07938701165">07938701165</a>

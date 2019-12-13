@@ -9,11 +9,13 @@ const Footer = () => (
       <div className="container footer_container">
         <div className="col-md-3 footer_item text-left">
           <h5>Podium Ice SKating</h5>
-          <p className="mt-2">
-            111 Old Dundonald Rd <br />
-            Belfast <br />
-            BT16 1XT
-          </p>
+          <a href="https://goo.gl/maps/YZqKE63QnMbEYT648" target="__blank">
+            <p className="mt-2">
+              111 Old Dundonald Rd <br />
+              Belfast <br />
+              BT16 1XT
+            </p>
+          </a>
           <div className="contact_links mt-3">
             <a href="tel:07938701165">
               <h5>Edward: 07938701165</h5>
