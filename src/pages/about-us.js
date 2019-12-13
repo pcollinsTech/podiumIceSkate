@@ -1,14 +1,14 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import MeetTheTeam from '../components/MeetTheTeam'
 import BannerContact from '../components/BannerContact'
-import banner from '../assets/images/iceRinkBoot.jpg'
-import bannerTogegther from '../assets/images/bannerTogegther.jpg'
-
+import Img from 'gatsby-image'
 class AboutUs extends React.Component {
   render() {
+    console.log(this.props)
     return (
       <Layout>
         <Helmet
@@ -19,7 +19,10 @@ class AboutUs extends React.Component {
           ]}
         ></Helmet>
 
-        <Banner img={banner} title="We Are Podium Ice Skate" />
+        <Banner
+          img={this.props.data.image2.childImageSharp.fluid}
+          title="We Are Podium Ice Skate"
+        />
 
         <div id="main">
           <div className="row home_about">
@@ -31,10 +34,16 @@ class AboutUs extends React.Component {
             </div>
           </div>
 
-          <MeetTheTeam />
+          <MeetTheTeam
+            eddie={this.props.data.eddieAlton.childImageSharp.fluid}
+            anastasia={this.props.data.anastasia.childImageSharp.fluid}
+          />
           <div className="container mb-5">
             <div className="text-center mb-5">
-              <img src={bannerTogegther} alt="" />
+              <Img
+                fluid={this.props.data.image1.childImageSharp.fluid}
+                loading="lazy"
+              />
             </div>
           </div>
           <BannerContact />
@@ -45,3 +54,42 @@ class AboutUs extends React.Component {
 }
 
 export default AboutUs
+
+export const teamImage = graphql`
+  fragment teamImage on File {
+    childImageSharp {
+      fluid(maxWidth: 250, maxHeight: 290) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+
+export const aboutImage = graphql`
+  fragment aboutImage on File {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+`
+
+export const query = graphql`
+  query {
+    anastasia: file(relativePath: { eq: "anastasia.png" }) {
+      ...teamImage
+    }
+
+    eddieAlton: file(relativePath: { eq: "eddieAlton.png" }) {
+      ...teamImage
+    }
+    image1: file(relativePath: { eq: "bannerTogegther.jpg" }) {
+      ...aboutImage
+    }
+
+    image2: file(relativePath: { eq: "iceRinkBoot.jpg" }) {
+      ...aboutImage
+    }
+  }
+`

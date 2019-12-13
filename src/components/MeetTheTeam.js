@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react'
-import anastasiia from '../assets/images/anastasia.png'
-import eddie from '../assets/images/eddieAlton.png'
+import Img from 'gatsby-image'
 
-const MeetTheTeam = () => {
+const MeetTheTeam = ({ anastasia, eddie }) => {
   return (
     <Fragment>
       <div id="team" className="mb-5">
@@ -12,12 +11,7 @@ const MeetTheTeam = () => {
             <div className="col-sm-6 about">
               <div className="row">
                 <div className="col-sm-6">
-                  <img
-                    src={anastasiia}
-                    alt="Anastasiia"
-                    className="member_image mb-3"
-                    style={{ maxWidth: '223px', maxHeight: '434px' }}
-                  />
+                  <Img fluid={anastasia} loading="lazy" />
                 </div>
                 <div className="col-sm-6">
                   <h3>Anastasiia Kuzmina</h3>
@@ -69,7 +63,7 @@ const MeetTheTeam = () => {
             <div className="col-sm-6 about">
               <div className="row">
                 <div className="col-sm-6">
-                  <img src={eddie} alt="Eddie" className="member_image mb-3" />
+                  <Img fluid={eddie} loading="lazy" />
                 </div>
                 <div className="col-sm-6">
                   <h3>Edward Alton</h3>

@@ -1,10 +1,8 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
-import coreography from '../assets/images/coreography.jpg'
-import olaf from '../assets/images/olaf.jpeg'
-import off_ice from '../assets/images/off_ice.png'
+import Img from 'gatsby-image'
 
-const Services = () => {
+const Services = ({ privateLesson, offIce, coreography }) => {
   return (
     <Fragment>
       <div id="services">
@@ -13,7 +11,7 @@ const Services = () => {
           <div className="container services__container">
             <div className="col-sm-4">
               <div className="service">
-                <img className="service_image" src={olaf} alt="Social Media" />
+                <Img fluid={privateLesson} loading="lazy" />
                 <h3 className="my-3">Private Lesson</h3>
                 <p>
                   A private lesson with a qualified coach is a great way to get
@@ -26,11 +24,7 @@ const Services = () => {
 
             <div className="col-sm-4">
               <div className="service">
-                <img
-                  className="service_image"
-                  src={off_ice}
-                  alt="Branding &amp; Identity Design"
-                />
+                <Img fluid={offIce} loading="lazy" />
                 <h3 className="mt-3">Off Ice Training</h3>
                 <p>
                   Skating requires so many different skills. This can often
@@ -43,15 +37,11 @@ const Services = () => {
             </div>
             <div className="col-sm-4">
               <div className="service">
-                <img
-                  className="service_image"
-                  src={coreography}
-                  alt="Branding &amp; Identity Design"
-                />
+                <Img fluid={coreography} loading="lazy" />
                 <h3 className="mt-3">Coreography</h3>
                 <p>
                   A classical dance background and many years of competitive and
-                  show skating that given us a wide experience of choreography.
+                  show skating has given us a wide experience of choreography.
                   We can incorporate many different styles on to the ice. We
                   have worked with Cindy Mundow and received master classes from
                   some of the worlds leading choreographers including Misha Ge

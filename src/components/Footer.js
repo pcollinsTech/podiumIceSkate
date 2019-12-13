@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="row inner pb-5">
       <div className="container footer_container">
         <div className="col-md-3 footer_item text-left">
-          <h5>Podium Ice SKating</h5>
+          <h5>Podium Ice Skating</h5>
           <a href="https://goo.gl/maps/YZqKE63QnMbEYT648" target="__blank">
             <p className="mt-2">
               111 Old Dundonald Rd <br />
@@ -17,14 +17,14 @@ const Footer = () => (
             </p>
           </a>
           <div className="contact_links mt-3">
-            <a href="tel:07938701165">
-              <h5>Edward: 07938701165</h5>
+            <a href="tel:07938701165" className="pb-4">
+              <h6>Edward: 07938701165</h6>
             </a>
             <a href="tel:07592852558" className="pb-4">
-              <h5>Anastasiia: 07592852558</h5>
+              <h6>Anastasiia: 07592852558</h6>
             </a>
             <a href="mailto:podiumiceskating1@gmail.com" className="mt-5 pt-5">
-              <h5>podiumiceskating1@gmail.com</h5>
+              <h6>podiumiceskating1@gmail.com</h6>
             </a>
           </div>
         </div>
