@@ -26,14 +26,14 @@ const Menu = props => (
     <div className="container" id="menu_social">
       <div className="row d-flex justify-content-around">
         <a
-          href="https://www.facebook.com/waxhivewraps/"
+          href="https://www.facebook.com/Podiumiceskating/"
           target="__blank"
           className="icon fa-facebook"
         >
           <span className="label">Facebook</span>
         </a>
         <a
-          href="https://www.instagram.com/waxhivewraps/"
+          href="https://www.instagram.com/podium.ice/"
           target="__blank"
           className="icon fa-instagram"
         >
