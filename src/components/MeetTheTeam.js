@@ -6,7 +6,7 @@ const MeetTheTeam = () => {
   return (
     <Fragment>
       <div id="team" className="mb-5">
-        <h2 className="my-5">Meet The Team</h2>
+        <h2 className="mb-5">Meet The Team</h2>
         <div className="row">
           <div className="container d-flex flex-wrap justify-content-between">
             <div className="col-sm-6 about">

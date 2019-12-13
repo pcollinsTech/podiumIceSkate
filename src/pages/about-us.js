@@ -5,7 +5,6 @@ import Banner from '../components/Banner'
 import MeetTheTeam from '../components/MeetTheTeam'
 import BannerContact from '../components/BannerContact'
 import banner from '../assets/images/iceRinkBoot.jpg'
-import outsideTogether from '../assets/images/gorup.jpg'
 import bannerTogegther from '../assets/images/bannerTogegther.jpg'
 
 class AboutUs extends React.Component {
@@ -25,26 +24,16 @@ class AboutUs extends React.Component {
         <div id="main">
           <div className="row home_about">
             <div className="container mobile">
-              <p>
-                We are Podium Ice Skate... <br /> <br /> <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                unde nesciunt quam delectus numquam nam ducimus facilis vel,
-                mollitia, culpa aliquid. Recusandae reprehenderit nihil,
-                voluptatum exercitationem vero ipsum natus animi.
-              </p>
-              <img src={outsideTogether} alt="" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Suscipit tempore necessitatibus rem hic aspernatur repellat,
-                voluptas ratione eaque facilis possimus sapiente quas officiis
-                unde molestias saepe dolor sunt culpa praesentium?
-              </p>
+              {/* <h3 className="text-center mb-5" style={{ color: 'black' }}>
+                We are Podium Ice Skate
+              </h3> */}
+              {/* <img src={outsideTogether} alt="" /> */}
             </div>
           </div>
 
           <MeetTheTeam />
-          <div className="container">
-            <div className="row text-center">
+          <div className="container mb-5">
+            <div className="row text-center mb-5">
               <img src={bannerTogegther} alt="" />
             </div>
           </div>

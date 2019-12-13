@@ -10,21 +10,24 @@ const Footer = () => (
         <div className="col-md-3 footer_item text-left">
           <h5>Podium Ice SKating</h5>
           <p className="mt-2">
-            Lorem ipsum <br />
-            Lorem ipsum <br />
-            Lorem ipsum
+            111 Old Dundonald Rd <br />
+            Belfast <br />
+            BT16 1XT
           </p>
           <div className="contact_links mt-3">
-            <a href="tel:020 8144 5873">
-              <h5>098765432</h5>
+            <a href="tel:07938701165">
+              <h5>Edward: 07938701165</h5>
             </a>
-            <a href="mailto:hello@digitalworksagency.com" className="my-5">
-              <h5>hello@podiumiceskating.com</h5>
+            <a href="tel:07592852558" className="pb-4">
+              <h5>Anastasiia: 07592852558</h5>
+            </a>
+            <a href="mailto:podiumiceskating1@gmail.com" className="mt-5 pt-5">
+              <h5>podiumiceskating1@gmail.com</h5>
             </a>
           </div>
         </div>
         <div className="col-md-6 footer_item">
-          <h5>Subscribe to our newsletter</h5>
+          {/* <h5>Subscribe to our newsletter</h5>
           <form className="form-inline mt-2">
             <div className="form-group">
               <input
@@ -43,7 +46,7 @@ const Footer = () => (
           </p>
           <ul className="copyright text-center mt-5">
             <li>&copy; Podium Ice Skating 2019</li>
-          </ul>
+          </ul> */}
         </div>
         <div className="col-md-3 footer_item ">
           <h5>Follow us</h5>

@@ -1,10 +1,8 @@
 import React, { Fragment } from 'react'
 import { Link } from 'gatsby'
-import oneOnOne from '../assets/images/oneOnOne.jpg'
 import coreography from '../assets/images/coreography.jpg'
-import gorup from '../assets/images/gorup.jpg'
 import olaf from '../assets/images/olaf.jpeg'
-import off_ice from '../assets/images/off_ice.jpg'
+import off_ice from '../assets/images/off_ice.png'
 
 const Services = () => {
   return (
@@ -13,7 +11,7 @@ const Services = () => {
         <h2 className="black mb-5">Services</h2>
         <div className="row">
           <div className="container services__container">
-            <div className="col-sm-6">
+            <div className="col-sm-4">
               <div className="service">
                 <img className="service_image" src={olaf} alt="Social Media" />
                 <h3 className="my-3">Private Lesson</h3>
@@ -25,19 +23,8 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <div className="col-sm-6">
-              <div className="service">
-                <img className="service_image" src={gorup} alt="WebDesing" />
-                <h3 className="mt-3">Group Lessons</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Laudantium nam ratione voluptas tempore dolorem itaque
-                  possimus? Mollitia quas, illum harum saepe ad eligendi, omnis
-                  consequatur non minima impedit qui minus?
-                </p>
-              </div>
-            </div>
-            <div className="col-sm-6">
+
+            <div className="col-sm-4">
               <div className="service">
                 <img
                   className="service_image"
@@ -46,14 +33,15 @@ const Services = () => {
                 />
                 <h3 className="mt-3">Off Ice Training</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                  quos maiores labore nihil illo ab ipsa, dicta sapiente
-                  quisquam illum rerum cupiditate inventore sed error quas! Quis
-                  animi totam repellat.
+                  Skating requires so many different skills. This can often
+                  become daunting. Many people are surprised how much work is
+                  required off the ice. We teach our skaters how to warm up/cool
+                  down safely, stretching, strength training and jump related
+                  exercises all focussing on timing coordination and technique.
                 </p>
               </div>
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-4">
               <div className="service">
                 <img
                   className="service_image"
@@ -62,10 +50,12 @@ const Services = () => {
                 />
                 <h3 className="mt-3">Coreography</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                  quos maiores labore nihil illo ab ipsa, dicta sapiente
-                  quisquam illum rerum cupiditate inventore sed error quas! Quis
-                  animi totam repellat.
+                  A classical dance background and many years of competitive and
+                  show skating that given us a wide experience of choreography.
+                  We can incorporate many different styles on to the ice. We
+                  have worked with Cindy Mundow and received master classes from
+                  some of the worlds leading choreographers including Misha Ge
+                  and Giuseppe Arena.
                 </p>
               </div>
             </div>

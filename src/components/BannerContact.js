@@ -12,19 +12,23 @@ const BannerContact = () => (
             <div className="col-sm-6 text-left contact_section_left">
               <h2>Belfast</h2>
               <p>
-                Lorem Ipsum
-                <br />
-                Lorem Ipsum
-                <br />
-                Lorem Ipsum
+                111 Old Dundonald Rd <br />
+                Belfast <br />
+                BT16 1XT
               </p>
               <div className="contact_links mb-5">
                 <h4>
-                  <a href="tel:020 8144 5873">0987654321</a>
+                  Edward: <a href="tel:07938701165">07938701165</a>
+                </h4>
+                <h4>
+                  Anastasiia: <a href="tel:07592852558">07592852558</a>
                 </h4>
                 <h5>
-                  <a href="mailto:hello@podiumiceskate.com" className="my-5 green">
-                    hello@podiumiceskate.com
+                  <a
+                    href="mailto:podiumiceskating1@gmail.com"
+                    className="my-5 green"
+                  >
+                    podiumiceskating1@gmail.com
                   </a>
                 </h5>
               </div>
@@ -33,10 +37,18 @@ const BannerContact = () => (
               <form className="form">
                 <div className="form-group mb-2 text-left">
                   <label htmlFor="">Name</label>
-                  <input type="text" className="form-control" placeholder="Name" />
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Name"
+                  />
                 </div>
                 <div className="form-group mb-2">
-                  <input type="email" className="form-control" placeholder="Email" />
+                  <input
+                    type="email"
+                    className="form-control"
+                    placeholder="Email"
+                  />
                 </div>
                 <div className="form-group mb-2">
                   <textarea className="mt-3" placeholder="Message" />
