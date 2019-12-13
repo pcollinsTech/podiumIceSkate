@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
-import anastasiia from '../assets/images/anastasia.jpg'
-import eddie from '../assets/images/eddieAlton.jpeg'
+import anastasiia from '../assets/images/anastasia.png'
+import eddie from '../assets/images/eddieAlton.png'
 
 const MeetTheTeam = () => {
   return (
@@ -32,7 +32,7 @@ const MeetTheTeam = () => {
                   </p>
                 </div>
 
-                <h3 className="text-center ">Qualifications & Awards</h3>
+                <h3 className="text-center pt-5">Qualifications & Awards</h3>
                 <br />
                 <br />
                 <div className="container my-5">
@@ -85,7 +85,7 @@ const MeetTheTeam = () => {
                     Kuzmina.
                   </p>
                 </div>
-                <h3 className="text-center ">Qualifications & Awards</h3>
+                <h3 className="text-center pt-5">Qualifications & Awards</h3>
                 <br />
                 <br />
                 <div className="container my-5">

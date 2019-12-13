@@ -33,7 +33,7 @@ class AboutUs extends React.Component {
 
           <MeetTheTeam />
           <div className="container mb-5">
-            <div className="row text-center mb-5">
+            <div className="text-center mb-5">
               <img src={bannerTogegther} alt="" />
             </div>
           </div>
