@@ -14,8 +14,12 @@ class AboutUs extends React.Component {
         <Helmet
           title="Podium Skate | About Us"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Ice Skating Coaching Belfast' },
+            {
+              name: 'keywords',
+              content:
+                'Ice Skating Belfast, Ice Skating Northern Ireland, Ice Skating Coaching Belfast',
+            },
           ]}
         ></Helmet>
 
