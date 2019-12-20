@@ -33,13 +33,15 @@ class HomeIndex extends React.Component {
               <p className="mt-5">
                 Podium Ice Skating has 50 years combined skating experience.
                 <br />
-                Work with our fully qualified team to Learn, Practice, Improve
-                Skills and feel better about yourself.
+                Work with our fully qualified team to learn, practice, improve
+                skills and improve your confidence.
               </p>
               <p className="mt-5">
-                Our instructors have competed at the highest standard. They
-                understand the discipline/hard work needed for success they are
-                committed and inspirational.
+                Our instructors have competed at the highest standard, they
+                understand the degree of discipline and hard work needed for
+                success. Our instructors are committed to the development of our
+                students and thrive to inspire them to reach their full
+                potential.
               </p>
             </div>
           </div>
