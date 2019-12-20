@@ -26,7 +26,9 @@ const MeetTheTeam = ({ anastasia, eddie }) => {
                   </p>
                 </div>
 
-                <h3 className="text-center pt-5">Qualifications & Awards</h3>
+                <h3 className="text-center pt-5">
+                  Qualifications & Achievements
+                </h3>
                 <br />
                 <br />
                 <div className="container my-5">
@@ -79,7 +81,9 @@ const MeetTheTeam = ({ anastasia, eddie }) => {
                     Kuzmina.
                   </p>
                 </div>
-                <h3 className="text-center pt-5">Qualifications & Awards</h3>
+                <h3 className="text-center pt-5">
+                  Qualifications & Achievements
+                </h3>
                 <br />
                 <br />
                 <div className="container my-5">
