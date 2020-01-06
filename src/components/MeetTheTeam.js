@@ -19,10 +19,10 @@ const MeetTheTeam = ({ anastasia, eddie }) => {
                     Anastasiia is a Russian trained figure skater from the world
                     renowned olympic reserve school of figure skating Perm.
                     Anastasiia represented her country at the highest level
-                    internationally before perusing a career in professional
+                    internationally before pursuing a career in professional
                     figure skating. Anastasiia worked both as a coach in Russia
                     and then went on to travel the world as a principal
-                    performer with International show buisness.
+                    performer with International show business.
                   </p>
                 </div>
 
