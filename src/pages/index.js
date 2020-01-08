@@ -24,7 +24,7 @@ class HomeIndex extends React.Component {
 
         <Banner
           img={this.props.data.image1.childImageSharp.fluid}
-          title="Podium Ice Skate"
+          title="Podium Ice Skating"
         />
 
         <div id="main">
