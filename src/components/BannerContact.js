@@ -36,13 +36,20 @@ const BannerContact = () => (
               </div>
             </div>
             <div className="col-sm-6 text-right contact_section_right ">
-              <form className="form">
+              <form
+                className="form"
+                name="contact"
+                method="post"
+                data-netlify="true"
+                data-netify-honeypot="bot-field"
+              >
                 <div className="form-group mb-2 text-left">
                   <label htmlFor="">Name</label>
                   <input
                     type="text"
                     className="form-control"
                     placeholder="Name"
+                    name="name"
                   />
                 </div>
                 <div className="form-group mb-2">
@@ -50,10 +57,15 @@ const BannerContact = () => (
                     type="email"
                     className="form-control"
                     placeholder="Email"
+                    name="email"
                   />
                 </div>
                 <div className="form-group mb-2">
-                  <textarea className="mt-3" placeholder="Message" />
+                  <textarea
+                    className="mt-3"
+                    placeholder="Message"
+                    name="message"
+                  />
                   <button type="submit" className="mt-3">
                     Send
                   </button>
