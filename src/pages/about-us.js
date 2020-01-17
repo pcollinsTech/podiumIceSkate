@@ -8,7 +8,6 @@ import BannerContact from '../components/BannerContact'
 import Img from 'gatsby-image'
 class AboutUs extends React.Component {
   render() {
-    console.log(this.props)
     return (
       <Layout>
         <Helmet

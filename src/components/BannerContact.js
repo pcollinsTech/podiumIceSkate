@@ -43,6 +43,7 @@ const BannerContact = () => (
                 data-netlify="true"
                 data-netify-honeypot="bot-field"
               >
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group mb-2 text-left">
                   <label htmlFor="">Name</label>
                   <input
